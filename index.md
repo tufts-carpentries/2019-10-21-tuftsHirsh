@@ -405,7 +405,8 @@ please preview your site before committing, and make sure to run
   </div>
 </div> {% comment %} End of 'shell' section. {% endcomment %}
 
-<div id="git"> {% comment %} Start of 'Git' section. GitHub browser compatibility
+{% comment %}
+ <div id="git"> {% comment %} Start of 'Git' section. GitHub browser compatibility
   is given at https://help.github.com/articles/supported-browsers/{% endcomment %}
   <h3>Git</h3>
   <p>
@@ -425,14 +426,16 @@ please preview your site before committing, and make sure to run
     <a href="https://help.github.com/articles/keeping-your-email-address-private/">instructions
       for keeping your email address private</a> provided at GitHub.
   </p>
-
+{% endcomment %}
+  
   <div>
     <ul class="nav nav-tabs nav-justified" role="tablist">
       <li role="presentation" class="active"><a data-os="windows" href="#git-windows" aria-controls="Windows" role="tab" data-toggle="tab">Windows</a></li>
       <li role="presentation"><a data-os="macos" href="#git-macos" aria-controls="MacOS" role="tab" data-toggle="tab">MacOS</a></li>
       <li role="presentation"><a data-os="linux" href="#git-linux" aria-controls="Linux" role="tab" data-toggle="tab">Linux</a></li>
     </ul>
-
+-->
+  
     <div class="tab-content">
       <article role="tabpanel" class="tab-pane active" id="git-windows">
         <p>
@@ -536,7 +539,7 @@ please preview your site before committing, and make sure to run
 <div id="python"> {% comment %} Start of 'Python' section. Remove the third paragraph if
   the workshop will teach Python using something other than
   the Jupyter notebook.
-  Details at https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#browser-compatibility {% endcomment %}
+  Details at https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#browser-compatibility 
   <h3>Python</h3>
 
   <p>
@@ -570,7 +573,7 @@ please preview your site before committing, and make sure to run
       <li role="presentation"><a data-os="macos" href="#python-macos" aria-controls="MacOS" role="tab" data-toggle="tab">MacOS</a></li>
       <li role="presentation"><a data-os="linux" href="#python-linux" aria-controls="Linux" role="tab" data-toggle="tab">Linux</a></li>
     </ul>
-
+  
     <div class="tab-content">
       <article role="tabpanel" class="tab-pane active" id="python-windows">
         <a href="https://www.youtube.com/watch?v=xxQ0mzZ8UvA">Video Tutorial</a>
@@ -622,7 +625,7 @@ please preview your site before committing, and make sure to run
       </article>
     </div>
   </div>
-  {% comment %}
+
   <p>
     Once you are done installing the software listed above,
     please go to <a href="setup/index.html">this page</a>,
@@ -820,28 +823,4 @@ please preview your site before committing, and make sure to run
   </div>
 </div> {% comment %} End of 'OpenRefine' section. {% endcomment %}
 
-{% comment %}
-<div id="vm">
-  <h3>Virtual Machine</h3>
 
-  <p>
-    Some instructors prefer to have learners use a virtual machine (VM)
-    rather than install software on their own computers.  If your
-    instructors have chosen to do this, please:
-  </p>
-  <ol>
-    <li>
-      Install <a href="https://www.virtualbox.org/">VirtualBox</a>.
-    </li>
-    <li>
-      Download our <a href="{{site.swc_vm}}">VM image</a>.
-      <strong>Warning:</strong> this file is 1.7 GByte, so please
-      download it <em>before</em> coming to your workshop.
-    </li>
-    <li>
-      Load the VM into VirtualBox by selecting "Import Appliance" and
-      loading the <code>.ova</code> file.
-    </li>
-  </ol>
-</div>
-{% endcomment %}
