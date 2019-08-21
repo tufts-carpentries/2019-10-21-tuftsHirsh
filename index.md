@@ -332,7 +332,7 @@ please preview your site before committing, and make sure to run
         </p>
         <p>
           Others editors that you can use are
-          <a href="https://atom.io">Atom</a>
+          <a href="https://atom.io">Atom</a>,
           <a href="https://notepad-plus-plus.org/">Notepad++</a> or
           <a href="https://www.sublimetext.com/">Sublime Text</a>.
           <strong>Be aware that you must
@@ -349,7 +349,7 @@ please preview your site before committing, and make sure to run
         </p>
         <p>
           Others editors that you can use are
-          <a href="https://atom.io">Atom</a>
+          <a href="https://atom.io">Atom</a>,
           <a href="https://www.barebones.com/products/bbedit/">BBEdit</a> or
           <a href="https://www.sublimetext.com/">Sublime Text</a>.
         </p>
